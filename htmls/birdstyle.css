@@ -1,0 +1,32 @@
+.question {
+font-size:30px;
+text-align: center;
+}
+
+h2 {
+font-size: 26px;
+}
+
+body {
+background-image: url('http://www.colourbox.com/preview/3985790-302956-floral-background.jpg');
+font-family: Garamond;
+color: #cc8684;
+}
+
+.tables {
+border: 1px solid #e1d4b4;
+width: 70%;
+border-collapse: collapse;
+background-color: #f0e6cb;
+opacity: 0.90;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.quiz {
+text-align: center;
+}
+
+.list {
+font-size: 30px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS3</title>
+<link type="text/css" rel="stylesheet" href="birdstyle.css"/>
+</head>
+<body>
+<table border="1px"; class="tables"; align="center">
+<tr><td><h1 align="center">Test Your Knowledge of Hummingbirds!</h1>
+<h2 align="center">Good <span id="rightGreeting">Morning</span> fellow birdwatchers!</h2>
+<script type="text/javascript">
+	var today=new Date();
+	var h=today.getHours();
+	var m=today.getMinutes();
+	var s=today.getSeconds();
+if (h < 12)
+{
+	document.getElementById("rightGreeting").innerHTML="Morning";
+}
+else if (h < 17)
+{
+	document.getElementById("rightGreeting").innerHTML="Afternoon";
+}
+else
+{
+	document.getElementById("rightGreeting").innerHTML="Evening";
+};
+</script>
+<p class="list"; align="center">Hummingbirds are amazing creatures that travel thousands of miles every year.</p>
+<ol class="list">Let's play a game to see how much you know about Hummingbirds!
+<li><p class="question">How many species of hummingbirds can be seen in New Jersey during the summer?</p>
+<table align="center" width="40%" class="quiz">
+<tr><td colspan=4><p><h2>Your answer is: <span id="ansMessage"> </span></p></h2></tr></td>
+<tr><td><p>
+<button type="button" onclick="changeButton1()">Five</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton2()">One</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton3()">Two</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton4()">Seven</button>
+</p></td>
+</tr>
+</table>
+<script type="text/javascript">
+function changeButton1()
+{
+document.getElementById("ansMessage").innerHTML="Incorrect. Try again";
+};
+function changeButton2()
+{
+document.getElementById("ansMessage").innerHTML="Correct!";
+};
+function changeButton3()
+{
+document.getElementById("ansMessage").innerHTML="Incorrect. Try again";
+};
+function changeButton4()
+{
+document.getElementById("ansMessage").innerHTML="Incorrect. Try again";
+};
+</script>
+</li>
+<li><p class="question">What type of Hummingbird can you regularly see in New Jersey?</p>
+<table align="center" width="40%" class="quiz">
+<tr><td colspan=4><p><h2>Your answer is: <span id="answMessage"> </span></p></h2></tr></td>
+<tr><td><p>
+<button type="button" onclick="changeButton5()">Anna's Hummingbird</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton6()">Blue-throated Hummingbird</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton7()">Magnificent Hummingbird</button>
+</p></td>
+<td><p>
+<button type="button" onclick="changeButton8()">Ruby-throated Hummingbird</button>
+</p></td>
+</tr>
+<tr>
+<td><img width="200px" height="235px" src="http://identify.whatbird.com/img/4/49270/image.aspx?x=322"></td>
+<td><img width="200px" height="235px" src="http://identify.whatbird.com/img/4/48739/image.aspx?x=322"></td>
+<td><img width="200px" height="235px" src="http://identify.whatbird.com/img/4/48937/image.aspx?x=322"></td>
+<td><img width="200px" height="235px" src="http://identify.whatbird.com/img/4/48596/image.aspx?x=322"></td>
+</tr>
+</li>
+<script type="text/javascript">
+function changeButton5()
+{
+document.getElementById("answMessage").innerHTML="Incorrect. Try again";
+};
+function changeButton6()
+{
+document.getElementById("answMessage").innerHTML="Incorrect. Try again";
+};
+function changeButton7()
+{
+document.getElementById("answMessage").innerHTML="Incorrect. Try again";
+};
+function changeButton8()
+{
+document.getElementById("answMessage").innerHTML="Correct!";
+};
+</script>
+</ol>
+</table>
+</body>
+</html>
