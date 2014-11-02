@@ -1,2 +1,93 @@
 mackgabbi.github.io
 ===================
+
+<!DOCTYPE HTML> 
+<html>
+  <head>
+    <title>Gabrielle McCormack</title>
+	<link  rel="stylesheet" href="mystyle.css"/>
+	<style>
+	#urhere
+	{
+	background-color:#6D72A1;
+	}
+	</style>
+<script type="text/javascript">
+var image1=new Image()
+image1.src="pics/kajooji.jpg"
+var image2=new Image()
+image2.src="pics/gallery/flowers.jpg"
+var image3=new Image()
+image3.src="pics/gallery/hydrangea.jpg"
+var image4=new Image()
+image4.src="pics/gallery/bridge.jpg"
+var image5=new Image()
+image5.src="pics/gallery/orangeflower.jpg"
+var image6=new Image()
+image6.src="pics/gallery/statue.jpg"
+</script>
+  </head>
+  
+  <body>
+  <!-- Nav Bar code -->
+  <!-- Nav Bar code -->
+	<div class = "divnav"> <!--translucent white background-->
+		<div class = "homephoto">
+				<img src = "pics/Initials2.jpg"> 
+		</div>
+		<div class = "openingtext">
+		<p>Gabrielle McCormack- A collection of my web work and photography</p>
+		</div>
+		<div class = "ncwit"><img src = "pics/ncwitbadge.png"></div>
+		<div class = "persquote"><p><em>"If it's a good idea, go ahead and do it.  
+		It's much easier to apologize than it is to get permission." -Grace Hopper</em></p></div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />		
+		<table align="center" width="100%" class = "navtable">
+			<tr>
+				<td width= "25%" class="nav" id="urhere"><a href="..//Index.html" >Home</a></td>
+				<td width= "25%" class="nav" ><a href="htmls/AboutMe.html" >About Me</a></td>
+				<td width= "25%" class="nav" ><a href="htmls/MyProj.html" >My Projects</a></td>
+				<td width= "25%" class="nav" ><a href="htmls/FavPics.html">Gallery</a></td>
+			</tr>			
+		</table>
+		
+		<br />
+		
+		<div class = "insidetext">
+		<p>The work featured on this website is directly from the Web Design course that I took in my sophomore 
+		year, the Computer Science course that I took in my junior year, and the work that I have done 
+		in my spare time.
+		</p>
+		<img src="pics/kajooji.png" class="slide2" name="slide" width="90%" height="450" />
+		<script>
+			//variable that will increment through the images
+			var step=1
+			function slideit(){
+				//if browser does not support the image object, exit.
+				if (!document.images)
+				return
+				document.images.slide.src=eval("image"+step+".src")
+				if (step<6)
+				step++
+				else
+				step=1
+				//call function "slideit()" every 2.5 seconds
+				setTimeout("slideit()",2500)
+			}
+			slideit()
+		</script>
+		
+		<p>
+		If you would like to see more of my photography or web work, feel free to navigate the tabs above.
+		</p>
+		</div>
+	</div>	
+</body>
+</html>
