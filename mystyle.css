@@ -1,0 +1,133 @@
+body {
+font-family: Tahoma;
+background-image: url('pics/featherbr.jpg');
+background-color: #A6179C;
+background-attachment: fixed;
+color: #A6179C;
+text-align: center;
+}
+
+.gabimage {
+margin-right: 20px;
+margin-left: -5px;
+
+}
+
+.tables {
+border: 1px solid #b8b8b8;
+width: 70%;
+border-collapse: collapse;
+background-color: #EFF2D8;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.transBody {
+background-color: #FFFFFF;
+opacity: .7;
+}
+
+.navigationbar {
+width: 90%;
+font-family: Tahoma;
+font-size: 25px;
+
+}
+
+.divnav {
+background-color: #FFFFFF;
+width: 70%;
+padding-bottom: 8px;
+padding-top: 18px;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: -10px;
+background-color: rgba(255, 255, 255, .7);
+}
+
+.homephoto {
+background-color: rgba(255, 255, 255, 1.0);
+width: 200px;
+height: 200px;
+margin-left: 3%;
+padding: 10px;
+}
+
+.openingtext {
+font: Tahoma;
+font-size: 24px;
+width: 60%;
+height: 40px;
+margin-left: 35%;
+margin-top: -250px;
+margin-bottom: 40px;
+}
+
+.ncwit {
+box-shadow: 0px 0px 40px #000000;
+width: 125px;
+height: 150px;
+margin-left: 80%;
+margin-top: -10px;
+}
+
+.persquote {
+width: 400px;
+height: 60px;
+margin-left: 31%;
+margin-top: -130px;
+font-size: 20px;
+}
+
+.navtable {
+margin-top: -80px;
+}
+
+.insidetext {
+width: 90%;
+margin-left: 5%;
+font-size: 20px;
+}
+
+.nav {
+background-color: #6b5075;
+font-size: 24px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+a:link {
+color: #A38BA1;
+text-decoration: none;
+}
+
+a:visited {
+color: #A38BA1;
+text-decoration: none;
+}
+
+a:hover {
+color: #A6179C;
+text-decoration: none;
+}
+
+.houseimage {
+margin-top: 10px;
+}
+
+.image {
+height: 306px;
+width: 544px;
+}
+
+a:link2 {
+color: #A6179C;
+text-decoration: none;
+}
+
+
+
+
+
+
+
