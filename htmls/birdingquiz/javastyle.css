@@ -1,0 +1,85 @@
+li {
+font-family: Garamond;
+font-size: 24px;
+color: #575757;
+}
+
+p {
+font-size: 18px;
+font-family: Garamond;
+}
+
+.image {
+float: left;
+box-shadow: 1px 1px 20px #3d3d3d;
+}
+
+.questions {
+background-color: #DEDDD5;
+opacity: .98;
+padding: 10px;
+width: 70%;
+float: center;
+box-shadow: 1px 1px 20px #3d3d3d;
+border-radius: 60px;
+}
+
+.thanks {
+font-weight: bold;
+font-family: Garamond;
+font-size: 45px;
+color: #575757;
+text-align: center;
+}
+
+.answer {
+float: right;
+}
+
+.choice {
+margin-left: 600px;
+vertical-align: center;
+font-family: Garamond;
+font-weight: bold;
+color: #575757;
+}
+
+body {
+background-image: url('pics/bhouse2.jpg');
+}
+
+div {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.text {
+font-family: Garamond;
+font-size: 24px;
+}
+
+.buttons {
+font-family: Garamond;
+font-size: 18px;
+}
+
+.guess {
+font-size: 20px;
+font-weight: bold;
+margin-left: 570px;
+color: #575757;
+}
+
+.guessed {
+font-size: 20px;
+font-weight: bold;
+color: #575757;
+}
+
+.greetings {
+font-size: 35px;
+font-family: Garamond;
+color: #575757;
+}
+
